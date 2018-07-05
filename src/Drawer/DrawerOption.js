@@ -25,11 +25,9 @@ const App = createDrawerNavigator({
     Home: {
         screen: Page2 // primeira rota
     },
-    /*
     Second: {
         screen: Page2 // segunda rota
     }
-    */
 },{
     initialRouteName: 'Home', // Rota inicial do Drawer
     contentComponent: HeadDrawer // seta o content que contem o itens e tudo que tem no Drawer que é citado acima.
